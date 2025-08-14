@@ -83,16 +83,16 @@ const containerStyleTools = {
   display: "flex",
   flexWrap: "wrap",
   justifyContent: "center",
-  gap: "10px", 
+  gap: "10px",
   padding: "0 1rem",
   marginBottom: "2rem",
-  
+
 };
 
 const badgeStyle = {
   padding: "6px 16px",
-  background: "linear-gradient(135deg, #d0f0ff, #a0dfff)", 
-  color: "#1f2937", 
+  background: "linear-gradient(135deg, #d0f0ff, #a0dfff)",
+  color: "#1f2937",
   borderRadius: "9999px",
   fontWeight: 500,
   cursor: "default",
@@ -156,7 +156,7 @@ const Software = () => {
           flexWrap: "wrap",
           justifyContent: "center",
           width: "100%",
-          marginTop:"5px",
+          marginTop: "5px",
           marginBottom: "50px"
         }}
       >
@@ -178,7 +178,6 @@ const Software = () => {
               {project.description}
             </p>
 
-
             <ul
               style={{
                 paddingLeft: "20px",
@@ -193,36 +192,31 @@ const Software = () => {
               ))}
             </ul>
 
-
           </div>
         ))}
       </div>
 
       <div style={containerStyle}>
-      {logos.map(({ src, alt }) => (
-        <div key={alt} style={logoWrapperStyle}>
-          <img
-            src={src}
-            alt={alt}
-            style={imgStyle}
-            onMouseOver={(e) => (e.currentTarget.style.transform = "scale(1.2)")}
-            onMouseOut={(e) => (e.currentTarget.style.transform = "scale(1)")}
-          />
-        </div>
-      ))}
-    </div>
+        {logos.map(({ src, alt }) => (
+          <div key={alt} style={logoWrapperStyle}>
+            <img
+              src={src}
+              alt={alt}
+              style={imgStyle}
+              onMouseOver={(e) => (e.currentTarget.style.transform = "scale(1.2)")}
+              onMouseOut={(e) => (e.currentTarget.style.transform = "scale(1)")}
+            />
+          </div>
+        ))}
+      </div>
 
-    <div style={containerStyleTools}>
-      {tools.map((tool) => (
-        <span key={tool} style={badgeStyle}>
-          {tool}
-        </span>
-      ))}
-    </div>
-
-
-
-
+      <div style={containerStyleTools}>
+        {tools.map((tool) => (
+          <span key={tool} style={badgeStyle}>
+            {tool}
+          </span>
+        ))}
+      </div>
     </section>
   );
 };

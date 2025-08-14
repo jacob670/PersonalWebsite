@@ -42,29 +42,29 @@ const About = () => (
     />
 
 
-<a
-  href="#Experience"
-  style={{
-    marginTop: "auto",
-    marginBottom: "30px",
-    display: "flex",
-    justifyContent: "center",
-  }}
->
-  <img
-    src="/assets/down-arrow-black.png" 
-    alt="Scroll to Experience"
-    style={{
-      width: "25px",
-      height: "25px",
-      cursor: "pointer",
-      animation: "bounce 1.5s infinite",
-    }}
-  />
-</a>
+    <a
+      href="#Experience"
+      style={{
+        marginTop: "auto",
+        marginBottom: "30px",
+        display: "flex",
+        justifyContent: "center",
+      }}
+    >
+      <img
+        src="/assets/down-arrow-black.png"
+        alt="Scroll to Experience"
+        style={{
+          width: "25px",
+          height: "25px",
+          cursor: "pointer",
+          animation: "bounce 1.5s infinite",
+        }}
+      />
+    </a>
 
-<style>
-  {`
+    <style>
+      {`
     @keyframes bounce {
       0%, 20%, 50%, 80%, 100% {
         transform: translateY(0);
@@ -77,7 +77,7 @@ const About = () => (
       }
     }
   `}
-</style>
+    </style>
 
   </section>
 );

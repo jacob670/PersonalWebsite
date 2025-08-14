@@ -18,7 +18,6 @@ const Header = () => {
                 boxSizing: "border-box",
             }}
         >
-
             <div
                 style={{
                     display: "flex",
@@ -32,17 +31,17 @@ const Header = () => {
             >
                 <h2 style={{ margin: 0 }}>Jacob Esteves</h2>
                 <span style={{ fontSize: "14px", color: "#555" }}>
-                    Computer Science | Cybersecurity 
+                    Computer Science | Cybersecurity
                 </span>
             </div>
 
-       
+
             <div
                 style={{
                     position: "absolute",
                     left: "50%",
                     transform: "translateX(-50%)",
-                    bottom: "10px", 
+                    bottom: "10px",
                     display: "flex",
                     justifyContent: "center",
                     width: "auto",
@@ -51,7 +50,7 @@ const Header = () => {
             >
                 <NavLinks />
             </div>
- 
+
             <div
                 style={{
                     display: "flex",
@@ -90,21 +89,6 @@ const Header = () => {
                         onMouseOut={(e) => (e.currentTarget.style.transform = "scale(1)")}
                     />
                 </a>
-
-                {/* <a href="https://linkedin.com/in/your-linkedin-username" target="_blank" rel="noopener noreferrer">
-                    <img
-                        src="/assets/resume-logo.png"
-                        alt="Resume"
-                        style={{
-                            width: 40,
-                            height: 32,
-                            transition: "transform 0.3s ease",
-                            cursor: "pointer",
-                        }}
-                        onMouseOver={(e) => (e.currentTarget.style.transform = "scale(1.1)")}
-                        onMouseOut={(e) => (e.currentTarget.style.transform = "scale(1)")}
-                    />
-                </a> */}
             </div>
         </header>
     );

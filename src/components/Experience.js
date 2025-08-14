@@ -67,8 +67,6 @@ const Experience = () => (
           fontWeight: 300
         }}
       >
-
-
         <li>Collaborated with stakeholders to gather BI requirements and translated them into functional C# API automation programs</li>
         <li>Refactored T-SQL stored procedures and developed optimized queries for integration within Epicor Kinetic ERP</li>
         <li>Identified and extracted critical business logic from legacy C# applications to produce optimized SSRS reports for operational efficiency</li>
@@ -77,7 +75,6 @@ const Experience = () => (
 
       </ul>
     </div>
-
 
     <a
       href="#Software"
@@ -119,4 +116,4 @@ const Experience = () => (
   </section>
 )
 
-export default Experience
+export default Experience;

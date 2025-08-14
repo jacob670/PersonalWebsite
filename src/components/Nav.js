@@ -26,7 +26,7 @@ const NavLinks = () => {
           key={text}
           href={`#${text}`}
           style={linkStyle}
-          onMouseOver={(e) => (e.currentTarget.style.color = "#00aaff")} 
+          onMouseOver={(e) => (e.currentTarget.style.color = "#00aaff")}
           onMouseOut={(e) => (e.currentTarget.style.color = "#333")}
         >
           {text}
