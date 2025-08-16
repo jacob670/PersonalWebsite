@@ -24,7 +24,6 @@ const Header = () => {
                     flexDirection: "column",
                     justifyContent: "center",
                     height: "100%",
-                    paddingLeft: 0,
                     flexShrink: 0,
                     paddingLeft: "2rem"
                 }}
