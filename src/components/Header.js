@@ -61,7 +61,7 @@ const Header = () => {
                     paddingRight: "2rem",
                 }}
             >
-                <a href="https://www.linkedin.com/in/jacob-esteves-804595329/" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/jacob670/jacob670" target="_blank" rel="noopener noreferrer">
                     <img
                         src="/assets/github-logo.png"
                         alt="GitHub"
