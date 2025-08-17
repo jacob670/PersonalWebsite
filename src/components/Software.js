@@ -210,6 +210,15 @@ const Software = () => {
         ))}
       </div>
 
+      <div style={{ textAlign: "center", marginBottom: "1.5rem" }}>
+  <img 
+    src="/assets/aws-cloud-logo.png" 
+    alt="AWS Certified" 
+    style={{ maxWidth: "120px" }}
+  />
+</div>
+
+
       <div style={containerStyleTools}>
         {tools.map((tool) => (
           <span key={tool} style={badgeStyle}>
