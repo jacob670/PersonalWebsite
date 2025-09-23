@@ -4,11 +4,10 @@ const projects = [
   {
     title: "Easy Entertainment",
     description: "A full stack application with Spring Boot and ReactJS where users can create accounts, fetch trending movies, build watchlists, and post movie reviews",
-
     bullets: ["Implemented secure authentication and authorization with AWS Cognito",
       "Created a functional REST API managed by the AWS API Gateway",
       "API integration using Lambdas, DynamoDB, and IAM"],
-
+    link: "https://github.com/jacob670/java-aws-chat-application-v2"
   },
   {
     title: "Safe Vault",
@@ -16,7 +15,7 @@ const projects = [
     bullets: ["Implemented AES-256 encryption in order to create secure storage",
       "Applied IAM permissions in AWS, practicing concepts such as PoLP",
       "Stores and retrieves the passwords from AWS DynamoDB"],
-
+    link: "https://github.com/jacob670/SafeVault"
   },
 ];
 
@@ -46,7 +45,8 @@ const logos = [
   { src: "/assets/python-logo.png", alt: "Python" },
   { src: "/assets/c-logo.png", alt: "C" },
   { src: "/assets/assembly-logo.png", alt: "Assembly" },
-];
+  { src: "/assets/r-logo-v2.png", alt: "R" },
+];  
 
 const containerStyle = {
   display: "flex",
@@ -193,6 +193,7 @@ const Software = () => {
             </ul>
 
           </div>
+          
         ))}
       </div>
 
@@ -211,13 +212,12 @@ const Software = () => {
       </div>
 
       <div style={{ textAlign: "center", marginBottom: "1.5rem" }}>
-  <img 
-    src="/assets/aws-cloud-logo.png" 
-    alt="AWS Certified" 
-    style={{ maxWidth: "120px" }}
-  />
-</div>
-
+        <img
+          src="/assets/aws-cloud-logo.png"
+          alt="AWS Certified"
+          style={{ maxWidth: "120px" }}
+        />
+      </div>
 
       <div style={containerStyleTools}>
         {tools.map((tool) => (

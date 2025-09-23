@@ -30,7 +30,7 @@ const Header = () => {
             >
                 <h2 style={{ margin: 0 }}>Jacob Esteves</h2>
                 <span style={{ fontSize: "14px", color: "#555" }}>
-                    Computer Science | Cybersecurity
+                    Computer Science | Cybersecurity | Software Development
                 </span>
             </div>
 
