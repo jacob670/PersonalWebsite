@@ -38,6 +38,7 @@ const About = () => (
         height: "250px",
         borderRadius: "50%",
         objectFit: "cover",
+        boxShadow: "0 0 60px rgba(0, 170, 255, 0.3)"
       }}
     />
 
