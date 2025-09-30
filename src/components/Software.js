@@ -166,6 +166,7 @@ const Software = () => {
             style={{
               ...cardStyle,
               ...(hoveredIndex === index ? cardHoverStyle : {}),
+              cursor: "default",
             }}
             onMouseEnter={() => setHoveredIndex(index)}
             onMouseLeave={() => setHoveredIndex(null)}
