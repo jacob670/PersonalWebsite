@@ -68,6 +68,7 @@ const Experience = () => (
         }}
       >
         <li>Collaborated with stakeholders to gather BI requirements and translated them into functional C# API automation programs</li>
+        <li>Developed, tested, and deployed a .NET email notifcation system for internal purcahse requistions</li>
         <li>Refactored T-SQL stored procedures and developed optimized queries for integration within Epicor Kinetic ERP</li>
         <li>Identified and extracted critical business logic from legacy C# applications to produce optimized SSRS reports for operational efficiency</li>
         <li>Built and deployed C# REST APIs in Epicor Kinetic ERP to enable seamless integration with reporting tools and business-critical applications</li>
@@ -75,6 +76,7 @@ const Experience = () => (
 
       </ul>
     </div>
+    
 
     <a
       href="#Software"
