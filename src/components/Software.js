@@ -46,7 +46,7 @@ const logos = [
   { src: "/assets/c-logo.png", alt: "C" },
   { src: "/assets/assembly-logo.png", alt: "Assembly" },
   { src: "/assets/r-logo-v2.png", alt: "R" },
-];  
+];
 
 const containerStyle = {
   display: "flex",
@@ -194,7 +194,7 @@ const Software = () => {
             </ul>
 
           </div>
-          
+
         ))}
       </div>
 
@@ -212,13 +212,30 @@ const Software = () => {
         ))}
       </div>
 
-      <div style={{ textAlign: "center", marginBottom: "1.5rem" }}>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          gap: "20px",
+          marginBottom: "1.5rem",
+        }}
+      >
         <img
           src="/assets/aws-cloud-logo.png"
           alt="AWS Certified"
           style={{ maxWidth: "120px" }}
         />
+
+        <img
+          src="/assets/isc2cclogo.png"
+          alt="ISC2 Certified"
+          style={{ maxWidth: "120px" }}
+        />
       </div>
+
+
+
 
       <div style={containerStyleTools}>
         {tools.map((tool) => (
