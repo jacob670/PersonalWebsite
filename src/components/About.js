@@ -25,7 +25,7 @@ const About = () => (
         lineHeight: "1.7",
       }}
     >
-      I am currently a 3rd year college student with hands-on experience in C# programming, API development, and database query optimization.
+      Hi! I am currently a 3rd year college student with hands-on experience in C# programming, API development, and database query optimization.
       I am skilled at analyzing business requirements and assisting in the creation of automation solutions and BI reports.
       I have a passion for creating efficient software applications that utilize cloud computing and its services.
     </p>
