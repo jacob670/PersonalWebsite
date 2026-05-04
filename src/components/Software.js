@@ -17,6 +17,7 @@ const projects = [
       "Stores and retrieves the passwords from AWS DynamoDB"],
     link: "https://github.com/jacob670/SafeVault"
   },
+  
 ];
 
 const cardStyle = {
@@ -76,7 +77,10 @@ const tools = [
   "SQL Server Management Studio",
   "SQL Server Reporting Services",
   "Wireshark",
-  "Swagger"
+  "Swagger",
+  "Splunk",
+  "TrueNas",
+  "pfSense"
 ];
 
 const containerStyleTools = {
