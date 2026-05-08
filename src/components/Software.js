@@ -79,7 +79,7 @@ const tools = [
   "Wireshark",
   "Swagger",
   "Splunk",
-  "TrueNas",
+  "TrueNAS",
   "pfSense"
 ];
 

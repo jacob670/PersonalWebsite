@@ -37,6 +37,40 @@ const Experience = () => (
     </h2>
 
     <div style={{ width: "100%" }}>
+  <h3 style={{ fontSize: "20px", marginTop: 0, marginBottom: "8px" }}>
+    Lumen Technologies
+  </h3>
+
+  <p style={{ margin: 0, color: "#333", lineHeight: 1.2 }}>
+    <span style={{ color: "#00aaff", fontWeight: "bold" }}>
+      Software Engineer Intern
+    </span>
+  </p>
+
+  <p style={{ margin: 0, color: "#555", lineHeight: 1.2 }}>
+    Remote
+  </p>
+
+  <p style={{ margin: 0, color: "#555", lineHeight: 1.2 }}>
+    May 2026 - August 2026 (Upcoming)
+  </p>
+
+  <ul
+    style={{
+      marginTop: "0.5rem",
+      marginBottom: "1rem",
+      paddingLeft: "0",
+      marginLeft: "0",
+      listStylePosition: "outside",
+      color: "#555",
+      lineHeight: "1.7",
+      fontWeight: 300
+    }}
+  >
+  </ul>
+</div>
+
+    <div style={{ width: "100%" }}>
       <h3 style={{ fontSize: "20px", marginTop: 0, marginBottom: "8px" }}>
         Norman Noble, Inc
       </h3>
