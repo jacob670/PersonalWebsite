@@ -52,7 +52,7 @@ const Experience = () => (
   </p>
 
   <p style={{ margin: 0, color: "#555", lineHeight: 1.2 }}>
-    May 2026 - August 2026 (Upcoming)
+    May 2026 - August 2026
   </p>
 
   <ul
@@ -67,6 +67,11 @@ const Experience = () => (
       fontWeight: 300
     }}
   >
+    <li>Developed a Java tool that automatically generated reusable Handlebars templates for REST and SOAP service migrations, saving time and enabling reuse across endpoints.</li>
+    <li>Built Python and Bash scripts that automated Splunk queries and generated HTTP request files and SQL scripts from configuration data, accelerating the API onboarding process.</li>
+    <li>Created an AI-based Java tool that uses rule-based validation and the Copilot SDK to detect invalid Handlebars template fields and generate corrections.</li> 
+    <li>Built React and TypeScript components that made the API transformation framework easier to use and improved the developer experience.</li>
+    <li>Worked with engineers and stakeholders to understand integration requirements, contribute to design discussions, and build automation features for service migrations.</li>
   </ul>
 </div>
 

@@ -25,8 +25,8 @@ const About = () => (
         lineHeight: "1.7",
       }}
     >
-      Hi! I am currently a 3rd year college student with hands-on experience in C# programming, API development, and database query optimization.
-      I am skilled at analyzing business requirements and assisting in the creation of automation solutions and BI reports.
+      Hi! I am currently a 4th year college student with hands-on experience in C# and Java development, automation, and database query optimization.
+      I am skilled at understanding business requirements and assisting in the creation of automation scripts utilizing tools such as Splunk. 
       I have a passion for creating efficient software applications that utilize cloud computing and its services.
     </p>
 
