@@ -7,46 +7,89 @@ const About = () => (
       display: "flex",
       flexDirection: "column",
       alignItems: "center",
-      justifyContent: "start",
+      justifyContent: "center",
       textAlign: "center",
       padding: "0 1rem",
     }}
   >
     <div id="about-anchor" style={{ position: "absolute", top: "-120px" }}></div>
 
-    <p
+    <div
       style={{
-        fontSize: "16px",
-        fontWeight: 300,
-        color: "#444",
-        marginTop: "140px",
-        marginBottom: "20px",
-        maxWidth: "708px",
-        lineHeight: "1.7",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        gap: "1.1rem",
+        maxWidth: "760px",
       }}
     >
-      Hi! I am currently a 4th year college student with hands-on experience in C# and Java development, automation, and database query optimization.
-      I am skilled at understanding business requirements and assisting in the creation of automation scripts utilizing tools such as Splunk. 
-      I have a passion for creating efficient software applications that utilize cloud computing and its services.
-    </p>
+      <p
+        style={{
+          margin: 0,
+          fontSize: "12px",
+          color: "#7dd3fc",
+          letterSpacing: "0.15em",
+          textTransform: "uppercase",
+          fontWeight: 600,
+        }}
+      >
+        About
+      </p>
 
-    <img
-      src="/assets/headshot3.jpg"
-      alt="Jacob Esteves"
+      <h1
+        style={{
+          margin: 0,
+          fontSize: "clamp(3rem, 7vw, 6rem)",
+          lineHeight: 0.94,
+          letterSpacing: "-0.08em",
+          color: "#edf6ff",
+        }}
+      >
+        Jacob Esteves
+      </h1>
+
+      <p
+        style={{
+          fontSize: "18px",
+          fontWeight: 300,
+          color: "rgba(191, 219, 254, 0.82)",
+          margin: 0,
+          maxWidth: "700px",
+          lineHeight: "1.75",
+        }}
+      >
+        I’m a fourth-year Computer Science and Cybersecurity student with hands-on experience in software engineering, automation, and cloud-based development. I enjoy solving practical problems with code and building tools that are useful, reliable, and thoughtfully designed.
+      </p>
+    </div>
+
+    <div
       style={{
-        width: "250px",
-        height: "250px",
-        borderRadius: "50%",
-        objectFit: "cover",
-        boxShadow: "0 0 60px rgba(0, 170, 255, 0.3)"
+        marginTop: "2.2rem",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        gap: "1.5rem",
+        flexWrap: "wrap",
       }}
-    />
-
+    >
+      <img
+        src="/assets/headshot3.jpg"
+        alt="Jacob Esteves"
+        style={{
+          width: "240px",
+          height: "240px",
+          borderRadius: "50%",
+          objectFit: "cover",
+          boxShadow: "0 0 60px rgba(125, 211, 252, 0.22)",
+          border: "1px solid rgba(148, 163, 184, 0.18)",
+        }}
+      />
+    </div>
 
     <a
       href="#Experience"
       style={{
-        marginTop: "auto",
+        marginTop: "2.25rem",
         marginBottom: "30px",
         display: "flex",
         justifyContent: "center",
@@ -60,6 +103,7 @@ const About = () => (
           height: "25px",
           cursor: "pointer",
           animation: "bounce 1.5s infinite",
+          filter: "brightness(0.95)",
         }}
       />
     </a>
@@ -79,7 +123,6 @@ const About = () => (
     }
   `}
     </style>
-
   </section>
 );
 
