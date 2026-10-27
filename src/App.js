@@ -299,7 +299,7 @@ function App() {
           id="experience"
           aria-label="Experience timeline"
         >
-          <div className="experience-label">// experience</div>
+          <div className="experience-label">{'// experience'}</div>
           <div className="timeline" role="list">
             {experienceEntries.map((entry) => (
               <article className="timeline-item" key={`${entry.company}-${entry.period}`} role="listitem">
